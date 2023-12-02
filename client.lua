@@ -29,7 +29,7 @@ local function Init()
         end,
         options = GlobalState.ShopData
     }, function(selected, scrollIndex, args)
-        Confirm(args,selected)
+        Confirm(args,scrollIndex)
     end)
     lib.showMenu('Menu')
 end
